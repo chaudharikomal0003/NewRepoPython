@@ -464,3 +464,14 @@ NameError: name 'math' is not defined
 >>> from math import sqrt, pow
 >>> pow(4,5)
 1024.0
+
+x = int(input("Enter a first number:"))
+y = int(input("Enter a second number:"))
+z = x + y
+print("The sum of the given numbers are:",z)
+
+ch = input("Enter a char:")[0]
+print(ch)
+
+result = eval(input("Enter an expression:"))
+print(result)
