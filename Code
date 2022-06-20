@@ -375,3 +375,48 @@ False
 >>> x = not x
 >>> x
 False
+
+>>> bin(25)
+'0b11001'
+>>> 0b0101
+5
+>>> 0b1111
+15
+>>> oct(25)
+'0o31'
+>>> hex(23)
+'0x17'
+>>> hex(10)
+'0xa'
+>>> 0xf
+15
+>>> 0b110011010
+410
+
+a = 5
+b = 6
+
+a = a ^ b
+b = a ^ b
+a = a ^ b
+
+print(a)
+print(b)
+
+a = 5
+b = 6
+
+a = a + b
+b = a - b
+a = a - b
+
+print(a)
+print(b)
+
+a = 5
+b = 60
+
+a,b = b,a
+
+print(a)
+print(b)
