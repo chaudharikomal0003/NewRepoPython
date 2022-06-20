@@ -1,0 +1,165 @@
+>>> num = 2.5
+>>> type(num)
+<class 'float'>
+>>> num = 5
+>>> type(num)
+<class 'int'>
+>>> num = 6+9j
+>>> type(num)
+<class 'complex'>
+>>> a = 5.6
+>>> b = int(a)
+>>> type(b)
+<class 'int'>
+>>> b
+5
+>>> k = float(b)
+>>> k
+5.0
+>>> k = 6
+>>> c = complex(b,k)
+>>> c
+(5+6j)
+>>> b<k
+True
+>>> boll = b < k
+>>> bool
+<class 'bool'>
+>>> b > k
+False
+>>> int(True)
+1
+>>> int(False)
+0
+>>> 1st = [25,36,45,12]
+SyntaxError: invalid syntax
+>>> lst = [25,36,45,12]
+>>> type(lst)
+<class 'list'>
+>>> s = {25,36,45,15,12,25}
+>>> s
+{36, 12, 45, 15, 25}
+>>> type(s)
+<class 'set'>
+>>> t = (25,36,4,57,12)
+>>> type(t)
+<class 'tuple'>
+>>> str = "navin"
+>>> st = 'a'
+>>> type(st)
+<class 'str'>
+>>> range(10)
+range(0, 10)
+>>> list(range(10))
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+>>> list(range(2,10,2))
+[2, 4, 6, 8]
+>>> type(range(10))
+<class 'range'>
+>>> d = {'navin':'samsung','rahul':'Iphone','kiran':'Oneplus'}
+>>> d
+{'navin': 'samsung', 'rahul': 'Iphone', 'kiran': 'Oneplus'}
+>>> d.keys()
+dict_keys(['navin', 'rahul', 'kiran'])
+>>> d.values()
+dict_values(['samsung', 'Iphone', 'Oneplus'])
+>>> d['rahul']
+'Iphone'
+>>> d.get('kiran')
+'Oneplus'
+>>> x = 2
+>>> y = 3
+>>> x + y
+5
+>>> x - y
+-1
+>>> x * y
+6
+>>> x * y
+6
+>>> x/y
+0.6666666666666666
+>>> x = x + 2
+>>> x
+4
+>>> x +=2
+>>> x
+6
+>>> x *= 3
+>>> x
+18
+>>> a,b = 5,6
+>>> a
+5
+>>> b
+6
+>>> n = 7
+>>> n
+7
+>>> -n
+-7
+>>> n
+7
+>>> n = -n
+>>> n
+-7
+>>> a < b
+True
+>>> a > b
+False
+>>> a == b
+False
+>>> a = 6
+>>> a == b
+True
+>>> a <= b
+True
+>>> a >= b
+True
+>>> a != b
+False
+>>> b = 7
+>>> a != b
+True
+>>> a = 5
+>>> b = 4
+>>> a < 8 and b < 5
+True
+>>> a < 8 and b < 2
+False
+>>> a < 8 or b < 2
+True
+>>> x = True
+>>> x
+True
+>>> not x
+False
+>>> x = not x
+>>> x
+False
+>>> bin(25)
+'0b11001'
+>>> 0b0101
+5
+>>> oct(25)
+'0o31'
+>>> hex(25)
+'0x19'
+>>> hex(10)
+'0xa'
+>>> 0xf
+15
+>>> ~12
+-13
+>>> 12 & 13
+12
+>>> 12 | 13
+13
+>>> 25 & 30
+24
+>>> 12 ^ 1
+13
+>>> 12 ^ 13
+1
+>>> 25 ^ 30
+7
