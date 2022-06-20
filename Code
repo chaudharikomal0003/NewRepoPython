@@ -1,3 +1,38 @@
+>>> 2 + 5
+7
+>>> 5 - 2
+3
+>>> 5 // 2
+2
+>>> 5 / 2
+2.5
+>>> 2 ** 3
+8
+>>> print('Python')
+Python
+>>> print('navin's laptop')
+  File "<stdin>", line 1
+    print('navin's laptop')
+                 ^
+SyntaxError: invalid syntax
+>>> print("navin's laptop")
+navin's laptop
+>>> print('navin "laptop"')
+navin "laptop"
+>>> print('navin's "laptop"')
+  File "<stdin>", line 1
+    print('navin's "laptop"')
+                 ^
+SyntaxError: invalid syntax
+>>> print('navin\'s "laptop"')
+navin's "laptop"
+>>> 10 * 'Me'
+'MeMeMeMeMeMeMeMeMeMe'
+>>> print('c:\docs\navin')
+c:\docs
+avin
+>>> print(r'c:\docs\navin')
+c:\docs\navin
 >>> num = 2.5
 >>> type(num)
 <class 'float'>
