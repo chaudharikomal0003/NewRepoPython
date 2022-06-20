@@ -420,3 +420,47 @@ a,b = b,a
 
 print(a)
 print(b)
+
+>>> ~12
+-13
+>>> 12 & 13
+12
+>>> 12 | 13
+13
+>>> 25 & 30
+24
+>>> 12 ^ 13
+1
+>>> 25 ^ 13
+20
+>>> 10 << 2
+40
+>>> 10 >> 2
+2
+>>> import math
+>>> x = math.sqrt(25)
+>>> x
+5.0
+>>> print(math.floor(2.9))
+2
+>>> print(math.ceil(2.2))
+3
+>>> 3**2
+9
+>>> print(math.pow(3,2))
+9.0
+>>> print(math.pi)
+3.141592653589793
+>>> print(math.e)
+2.718281828459045
+>>> import math as m
+>>> math.sqrt(25)
+5.0
+>>> math.sqrt(25)
+Traceback (most recent call last):
+  File "<pyshell#0>", line 1, in <module>
+    math.sqrt(25)
+NameError: name 'math' is not defined
+>>> from math import sqrt, pow
+>>> pow(4,5)
+1024.0
