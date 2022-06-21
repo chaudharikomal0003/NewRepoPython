@@ -976,3 +976,10 @@ def add_sub(x,y):
     return c,d
 result1,result2 = add_sub(4,5)
 print(result1,result2)
+
+def update():
+    x = 8
+    print(x)
+a = 10
+update(10)
+print(a)
