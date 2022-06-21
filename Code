@@ -946,4 +946,33 @@ m2 = matrix('1 2 3; 6 4 5; 1 6 7')
 m3 = m1 * m2
 print(m3)
 
+def greet():
+    print("Hello")
+    print("Good Morning")
+greet()
 
+def greet():
+    print("Hello")
+    print("Good Morning")
+def add(x,y):
+    c = x + y
+    print(c)
+greet()
+add(4,5)
+
+def greet():
+    print("Hello")
+    print("Good Morning")
+def add(x,y):
+    c = x + y
+    return c
+greet()
+result = add(4,5)
+print(result)
+
+def add_sub(x,y):
+    c = x + y
+    d = x - y
+    return c,d
+result1,result2 = add_sub(4,5)
+print(result1,result2)
