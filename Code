@@ -780,3 +780,87 @@ print(arr)
 from numpy import *
 arr = ones(5,int)
 print(arr)
+
+from numpy import *
+arr = array([1,2,3,4,5,6,7])
+arr = arr + 5
+print(arr)
+
+from numpy import *
+arr1= array([1,2,3,4,5,6,7])
+arr2= array([9,8,7,6,5,4,5])
+arr = arr1 + arr2
+print(arr3)
+
+from numpy import *
+arr= array([1,2,3,4,5,6,7])
+print(sin(arr))
+
+from numpy import *
+arr= array([1,2,3,4,5,6,7])
+print(cos(arr))
+
+from numpy import *
+arr= array([1,2,3,4,5,6,7])
+print(log(arr))
+
+from numpy import *
+arr= array([1,2,3,4,5,6,7])
+print(sqrt(arr))
+
+from numpy import *
+arr= array([1,2,3,4,5,6,7])
+print(sum(arr))
+
+from numpy import *
+arr= array([1,2,3,4,5,6,7])
+print(min(arr))
+
+from numpy import *
+arr= array([1,2,3,4,5,6,7])
+print(max(arr))
+
+from numpy import *
+arr1= array([1,2,3,4,5,6,7])
+arr2= array([1,2,3,4])
+print(concatenate([arr1,arr2]))
+
+from numpy import *
+arr1= array([1,2,3,4,5,6,7])
+arr2 = arr1
+print(arr1)
+print(arr2)
+
+from numpy import *
+arr1= array([1,2,3,4,5,6,7])
+arr2 = arr1
+print(arr1)
+print(arr2)
+print(id(arr1))
+print(id(arr2))
+
+from numpy import *
+arr1= array([1,2,3,4,5,6,7])
+arr2 = arr1.view()
+print(arr1)
+print(arr2)
+print(id(arr1))
+print(id(arr2))
+
+from numpy import *
+arr1= array([1,2,3,4,5,6,7])
+arr2 = arr1.view()
+arr1[1] = 7
+print(arr1)
+print(arr2)
+print(id(arr1))
+print(id(arr2))
+
+from numpy import *
+arr1= array([1,2,3,4,5,6,7])
+arr2 = arr1.copy()
+arr1[1] = 7
+print(arr1)
+print(arr2)
+print(id(arr1))
+print(id(arr2))
