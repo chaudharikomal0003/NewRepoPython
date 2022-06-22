@@ -1037,3 +1037,56 @@ def sum(*b):
         c = c + i
     print(c)
 sum(5,6,34,78)
+
+def person(name, **data):
+    print(name)
+    print(data)
+person('navin',age=28,city='Mumbai',mob=758394)
+
+def person(name, **data):
+    print(name)
+    for i,j in data.items():
+        print(i,j)
+person('navin',age=28,city='Mumbai',mob=758394)
+
+a = 10
+def something():
+    a = 15
+    print("In fun",a)
+something()
+print("Outside",a)
+
+a = 10
+def something():
+    print("In fun",a)
+something()
+print("Outside",a)
+
+a = 10
+def something():
+    global a
+    a = 15
+    print("In fun",a)
+something()
+print("Outside",a)
+
+a = 10
+print(id(a))
+def something():
+    a = 9
+    x = globals()['a']
+    print(id(x))
+    print("In fun",a)
+something()
+print("Outside",a)
+
+a = 10
+print(id(a))
+def something():
+    a = 9
+    x = globals()['a']
+    print(id(x))
+    print("In fun",a)
+    globals()['a'] = 15
+something()
+print("Outside",a)
