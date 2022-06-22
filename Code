@@ -1090,3 +1090,75 @@ def something():
     globals()['a'] = 15
 something()
 print("Outside",a)
+
+def count(lst):
+    even = 0
+    odd = 0
+    for i in lst:
+        if i%2==0:
+            even+=1
+        else:
+            odd+=1
+    return even,odd
+lst = [20,25,14,19,16,24,28,47,26]
+even, odd = count(lst)
+print(even)
+print(odd)
+
+def count(lst):
+    even = 0
+    odd = 0
+    for i in lst:
+        if i%2==0:
+            even+=1
+        else:
+            odd+=1
+    return even,odd
+lst = [20,25,14,19,16,24,28,47,26]
+even, odd = count(lst)
+print("Even : {} and Odd : {}".format(even,odd))
+
+def fib(n):
+    a = 0
+    b = 1
+    print(a)
+    print(b)
+    for i in range(2,n):
+        c = a + b
+        a = b
+        b = c
+        print(c)
+fib(10)
+
+def fib(n):
+    a = 0
+    b = 1
+    if n == 1:
+        print(a)
+    else:
+        print(a)
+        print(b)
+    for i in range(2,n):
+        c = a + b
+        a = b
+        b = c
+        print(c)
+fib(10)
+
+def fact(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+x = 5
+result = fact(x)
+print(result)
+
+def fact(n):
+    f = 1
+    for i in range(1,n+1):
+        f = f * i
+    return f
+x = 4
+result = fact(x)
+print(result)
